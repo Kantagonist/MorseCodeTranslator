@@ -28,7 +28,7 @@ class MorseTranslator:
     def translate(self, text):
         result = ""
         if self.mode == 0:
-            #refine the input
+            #cleanig the input
             refinedEntry = ""
             for i in text:
                 if i in morseCode:
